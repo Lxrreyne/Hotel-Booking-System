@@ -6,5 +6,5 @@ public class HotelBookingSystem {
 
 System.out.println ("-----------------------------------------------------------"); 
 System.out.println ("\t\t\tWelcome!"); 
-System.out.println ("\tWe offer comfortable rooms and delicious meals"); 
+System.out.println ("\tWe offer comfortable rooms"); 
 System.out.println ("-----------------------------------------------------------"); 
