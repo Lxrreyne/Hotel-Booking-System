@@ -27,7 +27,7 @@ System.out.println ("-----------------------------------------------------------
     System.out.println("3 - Twin room (P15,550/night)\n Ideal for 2 persons, 2 single bed"); 
     System.out.println("4 - Quad room (P18,300/night)\n For 4 guests, 2 queen bed"); 
     System.out.println("5 - Family room (P22,400/night)\n For 3-5 guests, 2 king bed"); 
-    System.out.println("6 - Suite room (P33,600/night)\n For 6-10 guests, luxury amenities"); 
+    System.out.println("6 - Suite room (P33,600/night)\n For 4-6 guests, luxury amenities"); 
 
     System.out.print("Which room would you like to avail (1-6):");
         String roomChoice = input.nextLine(); 
