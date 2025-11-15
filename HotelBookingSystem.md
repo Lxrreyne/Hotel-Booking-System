@@ -35,6 +35,47 @@ System.out.println ("-----------------------------------------------------------
     System.out.print ("You have selected" + roomChoice);
 
 
+        // Amenities
+        System.out.println("Available Amenities");
+        System.out.println("------------ Meals ------------");
+        System.out.println();
+        System.out.println("1 - Buffet: Charges vary.");
+        System.out.println("2 - Food Court: No charges applied.");
+
+        System.out.println();
+        System.out.print("Which Dining Option are you going to avail (1 or 2): ");
+        String diningChoice = input.nextLine();
+
+        // IF user chooses Buffet
+        if (diningChoice.equals("1")) {
+            System.out.println();
+            System.out.println("------------ Buffet ------------");
+            System.out.println();
+            System.out.println("1 - Standard Buffet (Breakfast, Lunch, Dinner): PHP 3000");
+            System.out.println("2 - Gourmet Buffet (Breakfast, Lunch, Dinner, Snacks): PHP 5000");
+            System.out.println("3 - Luxury Buffet (Unlimited Food): PHP 8000");
+            System.out.println();
+            System.out.print("Which Buffet Plan are you going to avail (1-3): ");
+            String buffetChoice = input.nextLine();
+        } 
+        
+        // ELSE → user chose Food Court
+        else {
+            System.out.println();
+            System.out.println("Available Amenities");
+            System.out.println();
+            System.out.println("------------ Spa ------------");
+            System.out.println("1 - Facial: PHP 4000");
+            System.out.println("2 - Full Body Massage: PHP 5000");
+            System.out.println("3 - None");
+            System.out.println();
+            System.out.print("Which Spa Plan are you going to avail (1-3): ");
+            String spaChoice = input.nextLine();
+        }
+
+        input.close();
+    }
+}
 
 
 
