@@ -68,7 +68,7 @@ public class HotelBookingSystem {
         }
 
         // ========================================================
-        // INSERTED PAYMENT SYSTEM (YOUR CODE EXACTLY)
+        // INSERTED PAYMENT SYSTEM
         // ========================================================
 
         String again = "Yes";
@@ -82,7 +82,7 @@ public class HotelBookingSystem {
             double subtotal, discount = 0, finalTotal;
             String pwdSenior, confirm;
 
-            System.out.println("===== HOTEL PAYMENT SYSTEM (WITH LOOP) =====");
+            System.out.println("===== HOTEL PAYMENT SYSTEM =====");
 
             // Inputs
             System.out.print("Enter Room Charge: ");
