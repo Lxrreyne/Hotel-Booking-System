@@ -14,7 +14,7 @@ public class HotelBookingSystem {
         String guestName = input.nextLine();
         System.out.println();
 
-        System.out.println("Hello," + guestName);
+        System.out.println("Hello, " + guestName);
         System.out.println("Let's begin with your booking process");
         System.out.println();
 
@@ -28,7 +28,7 @@ public class HotelBookingSystem {
         System.out.println("5 - Family room (P22,400/night)\n For 3-5 guests, 2 king bed");
         System.out.println("6 - Suite room (P33,600/night)\n For 4-6 guests, luxury amenities");
 
-        System.out.print("Which room would you like to avail (1-6):");
+        System.out.print("Which room would you like to avail (1-6): ");
         String roomChoice = input.nextLine();
 
         System.out.print("You have selected " + roomChoice);
