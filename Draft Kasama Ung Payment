@@ -10,7 +10,7 @@ public class HotelBookingSystem {
         System.out.println("-----------------------------------------------------------");
         System.out.println();
 
-        System.out.print("Please enter your name:");
+        System.out.print("Please enter your name: ");
         String guestName = input.nextLine();
         System.out.println();
 
