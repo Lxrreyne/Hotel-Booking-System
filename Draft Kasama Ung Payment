@@ -31,10 +31,10 @@ public class HotelBookingSystem {
         System.out.print("Which room would you like to avail (1-6):");
         String roomChoice = input.nextLine();
 
-        System.out.print("You have selected" + roomChoice);
+        System.out.print("You have selected " + roomChoice);
 
         // Amenities
-        System.out.println("Available Amenities");
+        System.out.println("\n\nAvailable Amenities");
         System.out.println("------------ Meals ------------");
         System.out.println();
         System.out.println("1 - Buffet: Charges vary.");
@@ -84,7 +84,7 @@ public class HotelBookingSystem {
             double subtotal, discount = 0, finalTotal;
             String pwdSenior, confirm;
 
-            System.out.println("===== HOTEL PAYMENT SYSTEM =====");
+            System.out.println("\n===== HOTEL PAYMENT SYSTEM =====");
 
             // Inputs
             System.out.print("Enter Room Charge: ");
